@@ -1,6 +1,15 @@
 import re
 
-accessions = ['xkn59438', 'yhdck2', 'eihd39d9', 'chdsye847', 'hedle3455', 'xjhd53e', '45da', 'de37dp']
+accessions = [
+    "xkn59438",
+    "yhdck2",
+    "eihd39d9",
+    "chdsye847",
+    "hedle3455",
+    "xjhd53e",
+    "45da",
+    "de37dp",
+]
 
 # prints accession number if it contains a 5
 for accession in accessions:
