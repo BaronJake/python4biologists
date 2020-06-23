@@ -1,3 +1,6 @@
+"""
+String operations
+"""
 # prints AT content
 seq = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 AT = (seq.count("A") + seq.count("T")) / len(seq)

@@ -1,3 +1,6 @@
+"""
+Various regex practice problems using a list of accession numbers
+"""
 import re
 
 accessions = [

@@ -1,3 +1,6 @@
+"""
+finds lengths of restriction fragments when given a restriction site pattern and known cut site
+"""
 import re
 
 with open("input/dna.txt") as file:

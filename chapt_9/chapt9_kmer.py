@@ -1,3 +1,7 @@
+"""
+Find all kmers of given length, and prints only those above the give cutoff value
+kmer_length and cutoff value are passed as poistional command line arguments
+"""
 import os
 import sys
 
@@ -9,7 +13,7 @@ cutoff_number = int(sys.argv[2])
 def split_kmers(seq, kmer_dict):
     """ updates kmer counts for all kmers in current sequence """
     for index in range(len(seq) - kmer_length + 1):
-        kmer = seq[index:index + kmer_length]
+        kmer = seq[index : index + kmer_length]
         curr_count = kmer_dict.get(kmer, 0)
         kmer_dict[kmer] = curr_count + 1
     return kmer_dict

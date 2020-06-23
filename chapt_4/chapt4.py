@@ -1,3 +1,7 @@
+"""
+Reading and writing to files using for loops
+"""
+
 # reads a file, and slices off first 14 characters and writes the rest to to an output file
 file = open("input/input.txt")
 output = open("output/output.txt", "w",)
