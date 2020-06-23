@@ -1,5 +1,10 @@
+"""
+various conditional statement practice problems with input coming from .csv file
+"""
+
 # function to return AT content
 def at_content(seq):
+    """ function to return AT content"""
     seq = seq.upper()
     AT_content = seq.count("A") + seq.count("T")
     return AT_content / len(seq)

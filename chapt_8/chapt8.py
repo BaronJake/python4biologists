@@ -1,3 +1,7 @@
+"""
+Translates dna sequence into a protein using given gencode dictionary
+"""
+
 gencode = {
     "ATA": "I",
     "ATC": "I",

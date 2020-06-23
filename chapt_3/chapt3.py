@@ -1,3 +1,6 @@
+"""
+Reading and writing to files
+"""
 file_name = "input/genomic_dna.txt"
 with open(file_name) as file:
     content = file.read().strip()
